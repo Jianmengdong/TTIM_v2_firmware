@@ -1,0 +1,18 @@
+* RegName        RegAddr         RegMask       R   W     Description
+test_mode          0x41        ffffffffffff    1   1
+channel_mask       0x42        ffffffffffff    1   1
+tx2_en             0x43        ffffffffffff    1   1
+tx1_sel            0x44        ffffffffffff    1   1
+invert_tx1         0x45        ffffffffffff    1   1
+tap_cnt            0x46        ffffffffffff    1   1
+channel_sel        0x47        ffffffffffff    1   1
+load_tap           0x48        ffffffffffff    1   1
+inject_reset       0x49        ffffffffffff    1   1
+pair_swap          0x4A        ffffffffffff    1   1
+en_trig_src        0x4B        ffffffffffff    1   1
+system_status      0x4C        ffffffffffff    1   0
+channel_rdy        0x4D        ffffffffffff    1   0
+error_time1        0x4E        ffffffffffff    1   0
+error_time2        0x4F        ffffffffffff    1   0
+error_cnt1         0x50        ffffffffffff    1   0
+error_cnt2         0x51        ffffffffffff    1   0
